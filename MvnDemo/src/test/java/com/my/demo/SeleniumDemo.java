@@ -34,6 +34,7 @@ public class SeleniumDemo {
 	    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='«Î ‰»Î√‹¬Î'])[1]/following::input[1]")).clear();
 	    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='«Î ‰»Î√‹¬Î'])[1]/following::input[1]")).sendKeys("123456");
 	    driver.findElement(By.id("login")).click();
+	    Thread.sleep(3000);
 	  }
 
 	  @After
